@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        var name = "Anusha";
+        var name1 = "Lolam";
+        console.log(name.concat(name1));
+        console.log(name.concat(" ",name1));
+        console.log(name1.concat(name));
+        console.log(name1.concat(" ",name));
+
+        var a = "coolcake";
+        console.log(a.slice(4,7));
+        console.log(a.slice(4,8));
+
+        var b = "coolcake1234";
+        console.log(b.slice(4,));
+
+        var c = "coolcake1231231";
+        console.log(c.slice(8,-4));
+
+        var string = "How is your day!";
+        console.log(string.length);
+        console.log(string.slice(12,16));
+
+        var string1 = "How is your day!afadasd";
+        console.log(string1.length);
+        console.log(string1.slice(-7, ));
+
+        const string3 = "How is your day!afadasd";
+        console.log(string3.split("!"));
+        console.log(string3.split("z"));
+
+        let string4 = "id=12&class=10";
+        console.log(string4.split("="));
+
+        var d = string4.split("=");
+        var e = d.join(" ");
+        var f = e.split("&");
+        var g = f.join(" ");
+        console.log(d);
+        console.log(e);
+        console.log(f);
+        console.log(g);
+        
+        var obj = "name:karunakar,age:30";
+        var h = obj.split(",");
+        var i = h.join(" ");
+        var j = i.split(":");
+        var k = j.join(" ");
+        console.log(h,i,j,k);
+    </script>
+</body>
+</html>
